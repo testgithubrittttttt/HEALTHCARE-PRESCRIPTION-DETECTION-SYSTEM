@@ -1,7 +1,7 @@
 # HEALTHCARE-PRESCRIPTION-DETECTION-SYSTEM
-Welcome to the Healthcare Prescription Detection System, a machine learning-based solution designed to assist in recommending medicines based on healthcare data. This project leverages various machine learning algorithms to predict the most appropriate prescription for patients.
+Welcome to the Healthcare Prescription Detection System, a machine learning-based solution designed to assist in recommending medicines based on healthcare data. This project leverages various machine-learning algorithms to predict the most appropriate prescription for patients.
 
-Table of Contents: 
+## Table of Contents: 
 - Introduction
 - Features
 - Installation
@@ -11,16 +11,16 @@ Table of Contents:
 - Evaluation
 - License
 
-Introduction
-The Healthcare Prescription Detection System is built to assist healthcare professionals in making accurate medicine recommendations. By analyzing patient data, the system predicts the most suitable prescriptions using various machine learning models. This can enhance the decision-making process and potentially improve patient outcomes.
+## Introduction
+The Healthcare Prescription Detection System is built to assist healthcare professionals in making accurate medicine recommendations. By analyzing patient data, the system predicts the most suitable prescriptions using various machine learning models. This can enhance the decision-making process and improve patient outcomes.
 
-Features
+## Features
 - Data preprocessing and encoding
 - Multiple machine learning algorithms for prediction
 - Evaluation metrics for model performance
 - User-friendly interface for healthcare professionals
 
-Datasets
+## Datasets
 The project uses the following datasets:
 
 1. Training.csv: Contains the training data for the machine learning models.
@@ -33,7 +33,7 @@ The project uses the following datasets:
 
 Ensure these datasets are available in the project's directory before running the scripts.
 
-Installation
+## Installation
 To get started with the Healthcare Prescription Detection System, follow these steps:
 
 - Clone the repository:
@@ -52,7 +52,7 @@ To get started with the Healthcare Prescription Detection System, follow these s
   10. from sklearn.metrics import accuracy_score, confusion_matrix
   11. import numpy as np
 
-Usage
+## Usage
 - Prepare your dataset and ensure it is in the correct format.
 - Review the output for accuracy scores and confusion matrix results.
 - The following Python libraries are utilized in this project:
@@ -69,7 +69,7 @@ The project includes several machine learning models for predicting prescription
 - K-Nearest Neighbors (KNN) Classifier
 - Multinomial Naive Bayes
 
-Evaluation
+## Evaluation
 The models are evaluated based on their accuracy and confusion matrices. The accuracy score and confusion matrix provide insights into the performance of each model.
 from sklearn.metrics import accuracy_score, confusion_matrix
 
@@ -77,10 +77,10 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 accuracy = accuracy_score(y_test, y_pred)
 conf_matrix = confusion_matrix(y_test, y_pred)
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Follow and Star
+## Follow and Star
 If you found this project helpful, please follow me and star the repository on GitHub!
 
 Follow me on GitHub = testgithubrittttttt | Star this repository
