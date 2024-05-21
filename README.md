@@ -73,7 +73,7 @@ The project includes several machine learning models for predicting prescription
 The models are evaluated based on their accuracy and confusion matrices. The accuracy score and confusion matrix provide insights into the performance of each model.
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-# Example of evaluation
+## Example of evaluation
 accuracy = accuracy_score(y_test, y_pred)
 conf_matrix = confusion_matrix(y_test, y_pred)
 
